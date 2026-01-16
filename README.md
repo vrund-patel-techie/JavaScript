@@ -159,9 +159,3 @@ Output:
 [3,4,5]
 ```
 Here, splice() modifies the original array → it is a mutating method.
-## Summary of Learnings
-✔ Scope of variables (var, let, const)
-✔ Asynchronous behavior (setTimeout)
-✔ Event loop concept
-✔ Difference between slice() and splice()
-✔ Mutating vs non-mutating methods
