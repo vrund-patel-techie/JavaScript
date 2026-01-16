@@ -6,7 +6,7 @@ This file tracks what I study every day so I can **quickly revise core JS concep
 
 ## 🗓️ 12 / 01 / 2026
 
-### Topics Covered
+### Topics to discover by self
 
 - **Concept of Shadowing**
   - How inner scope variables hide outer scope variables.
@@ -52,6 +52,37 @@ This file tracks what I study every day so I can **quickly revise core JS concep
 
 ### 📄 Notes / Document  
 🔗 https://docs.google.com/document/d/1cQrakFROGFPwKOzDZ_HNWyUz_HTRWB3u1GDzt2DRzEo/edit?tab=t.0
+
+# JavaScript Learning Notes – Practice Tasks
+
+This document contains my understanding and learnings from the following JavaScript practice tasks suggested by my senior.
+
+---
+
+## ✅ Task 1 — Try `var`, `let`, and `const` in a `for` loop  
+
+### Objective:
+To understand **scope of variables in JavaScript**.
+
+### Key Concepts Learned:
+
+| Keyword | Scope | Reassignable? | Redeclarable? |
+|--------|--------|---------------|---------------|
+| `var` | Function scope | ✅ Yes | ✅ Yes |
+| `let` | Block scope | ✅ Yes | ❌ No |
+| `const` | Block scope | ❌ No | ❌ No |
+
+### Observations:
+
+#### Using `var`
+```js
+for (var i = 0; i < 3; i++) {
+  console.log("Inside:", i);
+}
+console.log("Outside:", i);
+```
+Result:
+i is accessible outside the loop → shows that var is not block scoped.
 
 ---
 
