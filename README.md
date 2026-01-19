@@ -159,6 +159,8 @@ Output:
 [3,4,5]
 ```
 Here, splice() modifies the original array → it is a mutating method.
+ 
+ ---
 
 ## 🗓️ 19/01/2026
 
@@ -227,5 +229,3 @@ Here are some sites you can use to **practice questions and prepare for frontend
 - **LearnersBucket** – programming concept explanations + practice problems
 
 ---
-
-## 🎯 Purpose of This F
