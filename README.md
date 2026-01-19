@@ -53,7 +53,7 @@ This file tracks what I study every day so I can **quickly revise core JS concep
 ### 📄 Notes / Document  
 🔗 https://docs.google.com/document/d/1cQrakFROGFPwKOzDZ_HNWyUz_HTRWB3u1GDzt2DRzEo/edit?tab=t.0
 
-## ✅ Task 1 — Try `var`, `let`, and `const` in a `for` loop  
+### Task 1 — Try `var`, `let`, and `const` in a `for` loop  
 
 ### Objective:
 To understand **scope of variables in JavaScript**.
@@ -97,7 +97,7 @@ Error occurs because const cannot be reassigned — so it is not suitable for lo
 Final Takeaway:
 👉 Always prefer let for loop variables.
 
-## ✅ Task 2 — Try setTimeout()
+### Task 2 — Try setTimeout()
 Objective:
 To understand asynchronous behavior of JavaScript.
 ```js
@@ -124,7 +124,7 @@ After delay, callback goes to callback queue
 When call stack is free, callback executes
 This mechanism is called the Event Loop.
 
-## ✅ Task 3 - Slice a similar array inside a for loop
+### Task 3 - Slice a similar array inside a for loop
 Objective:
 To understand array copying vs mutation.
 Example using slice():
